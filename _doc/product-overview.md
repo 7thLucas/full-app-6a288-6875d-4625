@@ -26,12 +26,15 @@ ASCEND Career Pathway provides a personalized portal that turns career transitio
   - `#C9A86A` Muted Gold (secondary accent)
 - **Design:** Mobile-first, dark theme, tactical dashboard style — structured, professional, and execution-focused; fast and simple UX
 
-## Core Modules
-- **Dashboard** — current goal, progress indicator, weekly priorities, next action step; always shows where the user stands and what to do next
-- **Career Assessment** — skills inventory, interests exploration, experience review, and career direction recommendations
-- **7-Month Roadmap** — phased career transition plan with milestones, action steps, and progress tracking
-- **Resources** — resume guidance, interview preparation, and career development resources
-- **AI Strategist** — career coaching chat, prioritization assistance, and action planning on demand
+## Core Feature Set
+1. **Client Intake Form** — structured onboarding that captures goals, professional background, experience, and priorities from day one; anchors the personalized roadmap
+2. **Career Assessment** — skills inventory, interests exploration, experience review, and career direction recommendations
+3. **7-Month Roadmap Dashboard** — visual milestone dashboard spanning the full 7-month engagement; current phase, progress, and next steps always visible
+4. **Weekly Action Plans** — curated weekly priorities and tasks delivered each week to maintain execution momentum and forward motion
+5. **Progress Tracking** — milestone completion indicators, streak tracking, and performance metrics that surface growth visibly throughout the journey
+6. **Resource Library** — resume guidance, interview preparation, templates, and career development tools organized by transition stage
+7. **AI Strategist Chat** — always-on AI career coaching chat for guidance, prioritization, strategy, and real-time action planning on demand
+8. **Mobile-First Design** — fully responsive interface built for busy professionals on the go; fast, clean, and execution-focused on any device
 
 ## Strategic Principles
 - Clarity before complexity: always show the user where they are and what's next
