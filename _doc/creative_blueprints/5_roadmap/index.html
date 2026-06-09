@@ -1,0 +1,125 @@
+<style>
+  .mode-landscape .sl-timeline { flex-direction: row; align-items: stretch; }
+  .mode-portrait .sl-timeline { flex-direction: column; align-items: stretch; }
+  .mode-landscape .sl-month { flex: 1; flex-direction: column; align-items: center; text-align: center; }
+  .mode-portrait .sl-month { flex-direction: row; align-items: flex-start; gap: 0.75rem; text-align: left; }
+  .mode-landscape .sl-dot-line { flex-direction: column; align-items: center; }
+  .mode-portrait .sl-dot-line { flex-direction: row; align-items: center; }
+  .mode-landscape .sl-month-card { width: 100%; }
+  .mode-portrait .sl-month-card { flex: 1; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="flex flex-col w-full h-full px-10 py-8 gap-5">
+
+    <!-- Header -->
+    <div class="flex items-center justify-between flex-shrink-0">
+      <div>
+        <p class="text-xs font-bold tracking-widest uppercase mb-1" style="color:#C75B12;">ASCEND Career Pathway</p>
+        <h2 class="text-3xl font-bold leading-tight" style="color:#111111;">The 7-Month Career Pathway</h2>
+      </div>
+      <span class="text-xs font-semibold px-3 py-1.5 rounded-full" style="background:#111111; color:#F5E9DC;">Full Journey Dashboard</span>
+    </div>
+
+    <!-- Timeline -->
+    <div class="sl-timeline flex flex-1 gap-2 relative">
+
+      <!-- Connecting line (landscape only) -->
+      <div class="absolute" style="top:1.25rem; left:1.5rem; right:1.5rem; height:2px; background:#E5D5C5; z-index:0;" aria-hidden="true"></div>
+
+      <!-- Month 1 -->
+      <div class="sl-month flex gap-2 relative" style="z-index:1;">
+        <div class="sl-dot-line flex">
+          <div class="flex items-center justify-center rounded-full font-black text-white flex-shrink-0" style="width:2.5rem; height:2.5rem; background:#C75B12; font-size:0.8rem;">1</div>
+        </div>
+        <div class="sl-month-card rounded-xl p-3 flex flex-col gap-1 flex-1" style="background:#F5E9DC; margin-top:0.2rem;">
+          <div class="font-bold" style="font-size:0.72rem; color:#C75B12; text-transform:uppercase; letter-spacing:0.1em;">Intake</div>
+          <div class="font-bold" style="font-size:0.78rem; color:#111111;">Client Intake Form</div>
+          <div style="font-size:0.65rem; color:#6B5244; line-height:1.45;">Goals, background &amp; priorities captured</div>
+        </div>
+      </div>
+
+      <!-- Month 2 -->
+      <div class="sl-month flex gap-2 relative" style="z-index:1;">
+        <div class="sl-dot-line flex">
+          <div class="flex items-center justify-center rounded-full font-black text-white flex-shrink-0" style="width:2.5rem; height:2.5rem; background:#111111; font-size:0.8rem;">2</div>
+        </div>
+        <div class="sl-month-card rounded-xl p-3 flex flex-col gap-1 flex-1" style="background:#F5E9DC; margin-top:0.2rem;">
+          <div class="font-bold" style="font-size:0.72rem; color:#C75B12; text-transform:uppercase; letter-spacing:0.1em;">Assess</div>
+          <div class="font-bold" style="font-size:0.78rem; color:#111111;">Career Assessment</div>
+          <div style="font-size:0.65rem; color:#6B5244; line-height:1.45;">Strengths, gaps &amp; direction defined</div>
+        </div>
+      </div>
+
+      <!-- Month 3 -->
+      <div class="sl-month flex gap-2 relative" style="z-index:1;">
+        <div class="sl-dot-line flex">
+          <div class="flex items-center justify-center rounded-full font-black text-white flex-shrink-0" style="width:2.5rem; height:2.5rem; background:#111111; font-size:0.8rem;">3</div>
+        </div>
+        <div class="sl-month-card rounded-xl p-3 flex flex-col gap-1 flex-1" style="background:#F5E9DC; margin-top:0.2rem;">
+          <div class="font-bold" style="font-size:0.72rem; color:#C75B12; text-transform:uppercase; letter-spacing:0.1em;">Plan</div>
+          <div class="font-bold" style="font-size:0.78rem; color:#111111;">Roadmap Built</div>
+          <div style="font-size:0.65rem; color:#6B5244; line-height:1.45;">7-month dashboard &amp; milestones set</div>
+        </div>
+      </div>
+
+      <!-- Month 4 -->
+      <div class="sl-month flex gap-2 relative" style="z-index:1;">
+        <div class="sl-dot-line flex">
+          <div class="flex items-center justify-center rounded-full font-black text-white flex-shrink-0" style="width:2.5rem; height:2.5rem; background:#C75B12; font-size:0.8rem;">4</div>
+        </div>
+        <div class="sl-month-card rounded-xl p-3 flex flex-col gap-1 flex-1" style="background:#111111; margin-top:0.2rem;">
+          <div class="font-bold" style="font-size:0.72rem; color:#C9A86A; text-transform:uppercase; letter-spacing:0.1em;">Execute</div>
+          <div class="font-bold" style="font-size:0.78rem; color:#F5E9DC;">Weekly Action Plans</div>
+          <div style="font-size:0.65rem; color:#9CA3AF; line-height:1.45;">Weekly plans + AI strategist coaching</div>
+        </div>
+      </div>
+
+      <!-- Month 5 -->
+      <div class="sl-month flex gap-2 relative" style="z-index:1;">
+        <div class="sl-dot-line flex">
+          <div class="flex items-center justify-center rounded-full font-black text-white flex-shrink-0" style="width:2.5rem; height:2.5rem; background:#111111; font-size:0.8rem;">5</div>
+        </div>
+        <div class="sl-month-card rounded-xl p-3 flex flex-col gap-1 flex-1" style="background:#111111; margin-top:0.2rem;">
+          <div class="font-bold" style="font-size:0.72rem; color:#C9A86A; text-transform:uppercase; letter-spacing:0.1em;">Resource</div>
+          <div class="font-bold" style="font-size:0.78rem; color:#F5E9DC;">Library &amp; AI Chat</div>
+          <div style="font-size:0.65rem; color:#9CA3AF; line-height:1.45;">Deep resources + on-demand strategy</div>
+        </div>
+      </div>
+
+      <!-- Month 6 -->
+      <div class="sl-month flex gap-2 relative" style="z-index:1;">
+        <div class="sl-dot-line flex">
+          <div class="flex items-center justify-center rounded-full font-black text-white flex-shrink-0" style="width:2.5rem; height:2.5rem; background:#111111; font-size:0.8rem;">6</div>
+        </div>
+        <div class="sl-month-card rounded-xl p-3 flex flex-col gap-1 flex-1" style="background:#F5E9DC; margin-top:0.2rem;">
+          <div class="font-bold" style="font-size:0.72rem; color:#C75B12; text-transform:uppercase; letter-spacing:0.1em;">Review</div>
+          <div class="font-bold" style="font-size:0.78rem; color:#111111;">Progress Tracking</div>
+          <div style="font-size:0.65rem; color:#6B5244; line-height:1.45;">Milestones reviewed, strategy refined</div>
+        </div>
+      </div>
+
+      <!-- Month 7 -->
+      <div class="sl-month flex gap-2 relative" style="z-index:1;">
+        <div class="sl-dot-line flex">
+          <div class="flex items-center justify-center rounded-full font-black text-white flex-shrink-0" style="width:2.5rem; height:2.5rem; background:#C75B12; font-size:0.8rem;">7</div>
+        </div>
+        <div class="sl-month-card rounded-xl p-3 flex flex-col gap-1 flex-1" style="background:#C75B12; margin-top:0.2rem;">
+          <div class="font-bold" style="font-size:0.72rem; color:#FDE8D8; text-transform:uppercase; letter-spacing:0.1em;">Ascend</div>
+          <div class="font-bold" style="font-size:0.78rem; color:#FFFFFF;">Career Elevation</div>
+          <div style="font-size:0.65rem; color:#FDE8D8; line-height:1.45;">Goals achieved — next level reached</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer tag strip -->
+    <div class="flex items-center justify-center gap-2 flex-shrink-0 rounded-xl py-3 px-5" style="background:#F5E9DC;">
+      <span style="font-size:0.7rem; font-weight:700; color:#111111;">Powered every month by:</span>
+      <span class="rounded-full px-2.5 py-0.5 text-xs font-bold text-white" style="background:#111111;">AI Strategist Chat</span>
+      <span class="rounded-full px-2.5 py-0.5 text-xs font-bold text-white" style="background:#C75B12;">Weekly Plans</span>
+      <span class="rounded-full px-2.5 py-0.5 text-xs font-bold" style="background:#C9A86A; color:#111111;">Progress Tracking</span>
+      <span class="rounded-full px-2.5 py-0.5 text-xs font-bold" style="border:1.5px solid #11111130; color:#111111;">Resource Library</span>
+    </div>
+
+  </div>
+</section>
